@@ -1022,7 +1022,7 @@ function make_entry.gen_from_ctags(opts)
   local current_file = Path:new(vim.api.nvim_buf_get_name(opts.bufnr)):normalize(cwd)
 
   local display_items = {
-    { width = 16 },
+    { width = opts.results_width or 16 },
     { remaining = true },
   }
 

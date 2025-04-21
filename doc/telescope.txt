@@ -1041,6 +1041,8 @@ builtin.current_buffer_tags({opts})  *telescope.builtin.current_buffer_tags()*
                                     false)
         {fname_width}    (number)   defines the width of the filename section
                                     (default: 30)
+        {results_width}  (number)   defines the width of the results section
+                                    (default: 16)
 
 
 builtin.git_files({opts})                      *telescope.builtin.git_files()*
